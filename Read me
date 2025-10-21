@@ -1,0 +1,174 @@
+Perfect! Now let me create a README for the project:
+Action: file_editor create /app/README.md --file-text "# 🎮 Super Rialo HQ
+
+A classic Super Mario Bros-style platformer game built with React and HTML5 Canvas.
+
+![Super Rialo HQ](https://img.shields.io/badge/Game-Super%20Rialo%20HQ-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Playable-brightgreen?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Web-blue?style=for-the-badge)
+
+## 🕹️ Game Features
+
+- **Classic Platformer Gameplay**: Jump, run, and explore like in the original Super Mario
+- **Enemies**: Stomp on Goombas to defeat them
+- **Collectibles**: Gather coins scattered throughout the level
+- **Question Blocks**: Hit blocks from below to earn bonus coins
+- **Lives System**: Start with 3 lives - don't fall off the world!
+- **Score Tracking**: Earn points by collecting coins and defeating enemies
+- **Responsive Controls**: Smooth keyboard controls for an authentic retro feel
+
+## 🎯 How to Play
+
+### Controls:
+- **Move Left/Right**: `←` `→` Arrow Keys or `A` `D`
+- **Jump**: `Space` or `W` or `↑`
+- **Pause**: Click the \"PAUSE\" button
+- **Restart**: Click \"RESTART\" button anytime
+
+### Gameplay:
+1. Click **START GAME** to begin
+2. Navigate platforms and avoid falling
+3. Jump on enemies to defeat them (approach from above!)
+4. Hit question blocks from below to get coins
+5. Collect floating coins for bonus points
+6. Don't get hit by enemies from the side!
+
+## 🏆 Scoring System
+
+- Coin (floating): **50 points**
+- Coin (from block): **100 points**
+- Enemy defeated: **200 points**
+
+## 🚀 Live Demo
+
+Play now at: `[Your GitHub Pages URL will go here]`
+
+## 💻 Local Development
+
+### Prerequisites:
+- Node.js (v14 or higher)
+- Yarn package manager
+
+### Setup:
+
+```bash
+# Install dependencies
+cd frontend
+yarn install
+
+# Start development server
+yarn start
+
+# Open browser to http://localhost:3000
+```
+
+## 📦 Deployment
+
+### Deploy to GitHub Pages (FREE):
+
+See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed instructions.
+
+Quick commands:
+```bash
+cd frontend
+yarn deploy
+```
+
+Your game will be live at: `https://YOUR_USERNAME.github.io/super-rialo-hq/`
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19
+- **Game Engine**: Custom HTML5 Canvas engine
+- **Styling**: Tailwind CSS
+- **UI Components**: Shadcn/ui
+- **Build Tool**: Create React App with Craco
+- **Deployment**: GitHub Pages
+
+## 📁 Project Structure
+
+```
+super-rialo-hq/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Game.jsx          # Main game component & engine
+│   │   │   └── ui/               # Shadcn UI components
+│   │   ├── App.js                # App entry point
+│   │   └── index.css             # Global styles
+│   ├── public/
+│   └── package.json
+├── backend/                       # Optional backend (not needed for game)
+├── DEPLOYMENT_GUIDE.md           # Detailed deployment instructions
+├── QUICK_DEPLOY.md               # Quick reference commands
+└── README.md                     # This file
+```
+
+## 🎨 Game Features Breakdown
+
+### Physics Engine:
+- ✅ Gravity simulation
+- ✅ Collision detection (platform, enemies, collectibles)
+- ✅ Jump mechanics with variable height
+- ✅ Horizontal movement with momentum
+- ✅ Terminal velocity
+
+### Game States:
+- ✅ Ready screen with instructions
+- ✅ Playing state
+- ✅ Paused state
+- ✅ Game Over screen
+
+### Visual Elements:
+- ✅ Pixelated art style
+- ✅ Character animations (walk, jump, invincibility flashing)
+- ✅ Enemy AI (patrol behavior)
+- ✅ Question blocks with coin rewards
+- ✅ Floating platforms
+- ✅ Ground terrain with brick patterns
+
+## 🔮 Future Enhancements (Ideas)
+
+- [ ] Multiple levels
+- [ ] Power-ups (mushrooms, fire flowers)
+- [ ] Sound effects and music
+- [ ] Mobile touch controls
+- [ ] Online leaderboard
+- [ ] Save game progress
+- [ ] More enemy types
+- [ ] Boss battles
+
+## 📄 License
+
+This is a fan-made game inspired by Super Mario Bros. All rights to the original game concept belong to Nintendo. This project is for educational and entertainment purposes only.
+
+## 🤝 Contributing
+
+Feel free to fork this project and add your own features! Some ideas:
+- Add new enemy types
+- Create new levels
+- Implement power-ups
+- Add sound effects
+- Improve graphics
+
+## 📞 Support
+
+Having issues? Check out:
+- [Deployment Guide](DEPLOYMENT_GUIDE.md) for deployment help
+- [Quick Deploy](QUICK_DEPLOY.md) for command reference
+- GitHub Issues page (create an issue if you find bugs)
+
+## 🎉 Credits
+
+- Game Design: Inspired by Super Mario Bros (Nintendo)
+- Development: Built with React and HTML5 Canvas
+- UI Components: Shadcn/ui
+- Deployment: GitHub Pages
+
+---
+
+**Enjoy playing Super Rialo HQ! 🎮**
+
+Made with ❤️ and lots of nostalgia
+"
+Observation: Failed to create file: File already exists at: /app/README.md. Cannot overwrite files using command `create`.
