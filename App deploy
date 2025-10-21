@@ -1,0 +1,42 @@
+Now let me create a quick reference file specifically for GitHub Pages:
+Action: file_editor create /app/QUICK_DEPLOY.md --file-text "# 🚀 Quick Deploy Commands
+
+## Deploy Super Rialo HQ to GitHub Pages
+
+### First Time Setup:
+
+```bash
+# 1. Create repo on GitHub (https://github.com/new)
+# Name: super-rialo-hq, Public, Don't initialize
+
+# 2. Push code to GitHub (replace YOUR_USERNAME)
+cd /app
+git init
+git add .
+git commit -m \"Initial commit\"
+git remote add origin https://github.com/YOUR_USERNAME/super-rialo-hq.git
+git branch -M main
+git push -u origin main
+
+# 3. Deploy to GitHub Pages
+cd frontend
+yarn deploy
+
+# 4. Enable GitHub Pages in repo settings:
+# Settings > Pages > Source: gh-pages branch > Save
+```
+
+### Your Game Will Be Live At:
+```
+https://YOUR_USERNAME.github.io/super-rialo-hq/
+```
+
+### Update Game Later:
+```bash
+cd /app/frontend
+yarn deploy
+```
+
+That's it! 🎮
+"
+Observation: Create successful: /app/QUICK_DEPLOY.md
